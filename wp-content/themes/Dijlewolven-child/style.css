@@ -1,0 +1,367 @@
+/*
+ Theme Name:   Dijlewolven Child
+ Theme URI:    http://dev-dijlewolven.pantheonsite.io/
+ Description:  Dijlewolven Child Theme
+ Author:       Jo Sels
+ Author URI:   http://example.com
+ Template:     blaskan
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html 
+ Text Domain:  dijlewolven-child
+*/
+
+
+/*Algemene aanpassing aan blaskan:*/
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* De css die per pagina de header foto verbergt */
+ 
+ .page-id-234 .custom-header {
+	display: none;
+}
+
+ .page-id-236 .custom-header {
+	display: none;
+}
+
+ .page-id-238 .custom-header {
+	display: none;
+}
+
+.page-id-778 .custom-header {
+	display: none;
+}
+
+.page-id-760 .custom-header {
+	display: none;
+}
+
+ .entry-title {
+ 	display: none;
+ }
+
+ .page-id-778 .footer-widgets {
+	display: none;
+}
+
+.page-id-760 .footer-widgets {
+	display: none;
+}
+
+.page-id-236 .footer-widgets {
+	display: none;
+}
+
+ header#masthead {
+    margin-bottom: 20px;
+}
+
+.site-title{
+	/*background-color:red;*/
+}
+
+.entry-content{
+	width: 60%;
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+
+ .edit-link {
+ 	display: none;
+ }
+
+
+.footer-widgets.container {
+    padding: 40px 15px 55px;
+}
+
+/* de collapse module van Gutenberg aanpassen: past de balk aan (groen)en ook de tekst */
+.page-id-778 .ugb-expand-more{
+	background-color: red;
+	color:white;
+	width:95%;
+	text-align: center;
+	margin-bottom: 5px;
+	font-size: 16px;
+	border-style: solid;
+    border-width: 1px;
+    border-color: red;
+    border-radius: 8px;	
+     margin-left: auto; 
+     margin-right: auto;
+     display: block;
+     height: 50px;
+
+}
+
+
+.page-id-236 .ugb-expand-more{
+	background-color: green;
+	color:white;
+	width:95%;
+	text-align: center;
+	margin-bottom: 5px;
+	font-size: 16px;
+	border-style: solid;
+    border-width: 1px;
+    border-color: green;
+    border-radius: 8px;	
+     margin-left: auto; 
+     margin-right: auto;
+     display: block;
+     height: 50px;
+
+}
+
+.ugb-expand-more-text{
+	margin-left: auto; 
+     margin-right: auto;
+     display: block;
+     text-align: center;
+     font-size: 18px;
+}
+
+.ugb-expand-less-text{
+	height: 0px;
+	
+	
+}
+
+
+.wp-block-ugb-expand{
+	margin-top: 1px;
+	margin-bottom: 5px;
+
+}
+
+/* de collapse module: past de balk aan (groen)en ook de tekst */
+.mijnCollapsBalk{
+	background-color: green;
+	color:white;
+	width:95%;
+	text-align: center;
+	margin-bottom: 5px;
+	font-size: 16px;
+	border-style: solid;
+    border-width: 1px;
+    border-color: green;
+    border-radius: 8px;	
+     margin-left: auto; 
+     margin-right: auto;
+}
+
+.mijnCollapsInhoud{
+	background-color:white;
+	width:95%;
+}
+
+
+.mijnCollapsBalk_hoekjes{
+	background-color: red;
+	color:white;
+	width:95%;
+	text-align: center;
+	margin-bottom: 5px;
+	font-size: 16px;
+	border-style: solid;
+    border-width: 1px;
+    border-color: red;
+    border-radius: 8px;	
+     margin-left: auto; 
+     margin-right: auto;
+}
+
+
+/* de formatering van foto's, logo's en tekst in de buiten leren bladzijde */
+
+.mijnBeelden{
+	text-align:center!important;
+}
+
+.mijnBeelden-l{
+	text-align: right!important;
+    margin-right: 5px;
+}
+
+.mijnBeelden-r{
+	text-align:left!important;
+}
+
+/* buiten leren layout*/
+.parkNamen{
+	text-align:center!important;
+	font-size: 50px;
+	color: darkgreen;
+	font-family: comic sans;
+	margin-right: 15%; 
+	margin-top: 5% ;
+	margin-bottom: 5%;
+
+}
+
+.parkLogo{
+	text-align:center!important;
+	margin-left: 15%; 
+	margin-top: 5% ;
+	margin-bottom: 5%;
+	/*border-style: solid;
+    border-width: 5px;
+    border-color: green;*/
+}
+
+.buitenlerenAlinea{
+	border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    background-color: grey;
+}
+
+
+/* speurhoekjes layout*/
+.hoekjesNamen{
+	text-align:center!important;
+	font-size: 50px;
+	color: darkred;
+	font-family: comic sans;
+	margin-right: 15%; 
+	margin-top: 5% ;
+	margin-bottom: 5%;
+
+}
+
+.hoekjesLogo{
+	text-align:center!important;
+	margin-left: 15%; 
+	margin-top: 5% ;
+	margin-bottom: 5%;
+	/*border-style: solid;
+    border-width: 5px;
+    border-color: green;*/
+}
+
+.hoekjesAlinea{
+	border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    background-color: grey;
+}
+
+
+
+
+
+
+.popupContent{
+	text-align:left;
+	padding-left: 10px;
+	margin-right: 15px;
+}
+
+.popupContent_hoekjes{
+	text-align:left;
+	padding: 30px 40px 30px 40px;
+}
+
+
+.expand-container{
+	text-align: center;
+}
+
+
+
+
+
+
+/*hr.wp-block-separator{ 
+	background-color: red!important;
+	color:blue!important;
+	} */
+
+
+
+
+/* Flaired edges */
+
+hr.wp-block-separator {
+height: 30px;
+border-style: solid;
+border-color: white;
+border-width: 3px 0 0 0;
+border-radius: 20px;
+background-color: #b3c5d1;
+}
+hr.wp-block-separator:before {
+display: block;
+content: "";
+height: 30px;
+margin-top: -31px;
+border-style: solid;
+border-color: white;
+border-width: 0 0 3px 0;
+border-radius: 20px;
+}
+
+hr.gewoonHR {
+	height: 1px;
+	background-color: green;
+	width: 100%;
+	border-width: 0px;
+	margin-top: 5px;
+	margin-bottom:5px;
+}
+
+hr.gewoonHR:before {
+	height: 0px;
+	display: none;
+	border-width: 0px!important;
+	border-radius: 0px;
+	margin-top: 0px;
+	border-color: blue;
+}
+
+.MijnKolom{
+	border-right: 6px solid blue;
+	width: 10px!important;
+	margin-right: 5px;
+}
+
+.page-id-234 .wp-block-column:nth-child(2){
+	padding-left: 20px;
+/*	padding-right: 20px;
+	margin-left: 10px;
+	margin-right:10px;*/
+	
+}
+
+.page-id-234 .wp-block-column:first-child{
+	
+	border-right: solid 2px darkgreen;
+	padding-right: 20px;
+}
+
+ 
+.WandelingHoofdTitel{
+	font-size: 30px;
+	color: green;
+	text-decoration: underline;
+}
+
+.WandelingSubTitel{
+	font-size: 24px;
+	color: green;
+}
+
+.page-id-234 h4{
+	
+}
+
+

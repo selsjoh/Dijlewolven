@@ -1,0 +1,208 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Huseyn A.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Hava 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-27 01:10+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: 404.php:10
+msgid "Nothing was found at this location."
+msgstr ""
+
+#: 404.php:12 loop.php:23 loop.php:30
+msgid "Go Back"
+msgstr ""
+
+#: comments.php:14
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:38
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:27
+msgid "Search"
+msgstr ""
+
+#: functions.php:73
+msgid "Header Menu"
+msgstr ""
+
+#: functions.php:87
+msgid "Footer Widget 1"
+msgstr ""
+
+#: functions.php:89
+msgid "The first footer widget area"
+msgstr ""
+
+#: functions.php:97
+msgid "Footer Widget 2"
+msgstr ""
+
+#: functions.php:99
+msgid "The second footer widget area"
+msgstr ""
+
+#: functions.php:107
+msgid "Footer Widget 3"
+msgstr ""
+
+#: functions.php:109
+msgid "The third footer widget area"
+msgstr ""
+
+#: loop.php:22
+msgid "Older Posts"
+msgstr ""
+
+#: loop.php:28
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: page.php:19 single.php:27
+msgid "Pages:"
+msgstr ""
+
+#: search.php:7
+#, php-format
+msgid "%s Search Results for "
+msgstr ""
+
+#: single.php:33
+msgid "Tags:"
+msgstr ""
+
+#: single.php:34
+msgid "Categorised in: "
+msgstr ""
+
+#: single.php:43
+msgid "Sorry, nothing to display."
+msgstr ""
+
+#: inc/customizer.php:7
+msgid "Twitter"
+msgstr ""
+
+#: inc/customizer.php:8
+msgid "Facebook"
+msgstr ""
+
+#: inc/customizer.php:9
+msgid "Google Plus"
+msgstr ""
+
+#: inc/customizer.php:10
+msgid "Instagram"
+msgstr ""
+
+#: inc/customizer.php:11
+msgid "Linkedin"
+msgstr ""
+
+#: inc/customizer.php:12
+msgid "Pinterest"
+msgstr ""
+
+#: inc/customizer.php:13
+msgid "Youtube"
+msgstr ""
+
+#: inc/customizer.php:14
+msgid "Vimeo"
+msgstr ""
+
+#: inc/customizer.php:15
+msgid "Periscope"
+msgstr ""
+
+#: inc/customizer.php:16
+msgid "Goodreads"
+msgstr ""
+
+#: inc/customizer.php:17
+msgid "Kickstarter"
+msgstr ""
+
+#: inc/customizer.php:18
+msgid "Flickr"
+msgstr ""
+
+#: inc/customizer.php:19
+msgid "500px"
+msgstr ""
+
+#: inc/customizer.php:20
+msgid "Behance"
+msgstr ""
+
+#: inc/customizer.php:21
+msgid "Github"
+msgstr ""
+
+#: inc/customizer.php:22
+msgid "Tumblr"
+msgstr ""
+
+#: inc/customizer.php:23
+msgid "Rss"
+msgstr ""
+
+#: inc/customizer.php:24
+msgid "E-mail"
+msgstr ""
+
+#: inc/customizer.php:25
+msgid "None"
+msgstr ""
+
+#: inc/customizer.php:37
+msgid "Header Social Icons"
+msgstr ""
+
+#: inc/customizer.php:38 inc/customizer.php:44
+msgid "Please select one of the social media and enter its URL below..."
+msgstr ""
+
+#: inc/customizer.php:43
+msgid "Footer Social Icons"
+msgstr ""
+
+#: inc/customizer.php:56 inc/customizer.php:87
+msgid "Select social media"
+msgstr ""
+
+#: inc/customizer.php:73 inc/customizer.php:104
+msgid "Enter URL here..."
+msgstr ""
+
+#: inc/customizer.php:116
+msgid "Footer Text"
+msgstr ""
+
+#: inc/customizer.php:127
+msgid "Footer text"
+msgstr ""
+
+#: inc/customizer.php:140
+msgid "Copyright text"
+msgstr ""

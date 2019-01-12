@@ -1,0 +1,761 @@
+/*
+Theme Name: Hava
+Author: Huseyn A.
+Author URI: http://ahuseyn.com/
+Description: Hava is the minimalist blog theme, designed for those who love symmetricity and precision. You can combine the power of breathtaking visuals and amazing stories with Hava. It's lightweight and doesn't include the useless functions.
+Version: 1.3
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: hava
+Tags: one-column, custom-logo, featured-images, footer-widgets, theme-options, threaded-comments, translation-ready
+*/
+
+/* --------------- MAIN ---------------- */
+
+/*-----                            -----*/
+
+body {
+  background-color: #fafafa;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+}
+
+p {
+  font-size: 16px;
+}
+
+a {
+  color: #969696;
+  transition: all 0.5s ease;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #191919;
+}
+
+/* --------------- HEADER ---------------- */
+
+/*-----                              -----*/
+
+.blog-head {
+  background-color: #191919;
+  color: #fafafa;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #969696;
+}
+
+.col-xs-auto img {
+  margin: 50px 40px 20px 0;
+  display: block;
+}
+
+.col-xs-auto p {
+  margin: -9px 40px -1px 0;
+}
+
+.title {
+  text-transform: uppercase;
+  padding: 50px 0 10px 0;
+  font-size: 58px;
+  text-align: center;
+  margin-right: 40px;
+  position: relative;
+  font-weight: 400;
+}
+
+.title a {
+  color: #fafafa;
+}
+
+.col-xl-auto,
+.col-lg-auto,
+.col-md-auto,
+.col-sm-auto,
+.col-xs-auto {
+  margin: auto;
+}
+
+.header-icons-logo {
+  display: block;
+  margin-top: -91px;
+  float: right;
+  position: relative;
+}
+
+.header-icons {
+  display: block;
+  margin-top: -101px;
+  float: right;
+  position: relative;
+}
+
+#i {
+  display: block;
+  padding: 3px;
+  color: #fafafa;
+  font-size: 1.7em;
+  transition: 0.4s ease;
+}
+
+#i:hover {
+  color: #969696;
+  text-decoration: none;
+}
+
+#si {
+  padding: 10px;
+  color: #fafafa;
+  font-size: 3.2em;
+  transition: 0.4s ease;
+}
+
+#si:hover {
+  color: #969696;
+  text-decoration: none;
+}
+
+.taxanomy-heading {
+  max-width: 640px;
+  margin: auto;
+}
+
+.taxanomy-heading p {
+  text-align: center;
+  font-size: 18px;
+  padding: 15px 0 0 0;
+}
+
+.taxanomy-heading h1 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+/* --------------- NAVIGATION ---------------- */
+
+/*-----                                  -----*/
+
+.menu {
+  padding: 0px;
+}
+
+.menu ul {
+  padding-left: 0;
+}
+
+.nav {
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited,
+.nav a:active {
+  color: #fafafa;
+  transition: 0.4s ease;
+  font-size: 18px;
+}
+
+.nav a:hover {
+  color: #969696;
+}
+
+.not-found {
+  margin: auto;
+  text-align: center;
+}
+
+.not-found h1 {
+  font-size: 96px;
+  padding: 30px 0 0 0;
+}
+
+.not-found p {
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 60px;
+}
+
+/* --------------- HOME ---------------- */
+
+/*-----                            -----*/
+
+.post-box {
+  display: block;
+  margin: 30px auto 30px auto;
+  max-width: 640px;
+  height: 360px;
+  overflow: hidden;
+  line-height: 1.42857143;
+  border: 1px solid #ddd;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  transition: all 0.5s ease-in-out;
+}
+
+.post-box:hover {
+  box-shadow: inset 0 0 0 10px #191919;
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.post-inner {
+  display: table;
+  margin: 120px auto 120px auto;
+  height: 120px;
+  min-width: 65%;
+  max-width: 75%;
+  text-align: center;
+  color: #323232;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 999;
+  transition: all 0.8s ease-in-out;
+  overflow: hidden;
+}
+
+.post-inner a {
+  color: #191919;
+}
+
+.post-inner h3 {
+  font-size: 26px;
+  padding: 25px 20px 0 20px;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+
+.post-inner hr {
+  background: #323232;
+  width: 100px;
+  height: 0.01em;
+  margin: 10px auto 10px auto;
+}
+
+.button {
+  display: block;
+  margin: 0 auto 10px auto;
+  padding: 25px 0 25px 0;
+  max-width: 240px;
+  background-color: #191919;
+  color: #fafafa;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.2s ease-out;
+}
+
+.button:empty {
+  display: none;
+}
+
+.button:hover {
+  max-width: 280px;
+  color: #fafafa;
+}
+
+.button a {
+  color: #fafafa;
+}
+
+/* --------------- COMMENTS ---------------- */
+
+/*-----                                -----*/
+
+.bypostauthor {
+  border-left: 10px solid #e1e1e1;
+}
+
+.commentlist li ul.children li.bypostauthor {
+  border-left: 10px solid #e1e1e1;
+}
+
+.depth-1 {
+  padding-bottom: 30px;
+}
+
+.depth-2 {
+  max-width: 95%;
+  margin-left: 5%;
+}
+
+.depth-3 {
+  max-width: 90%;
+  margin-left: 10%;
+}
+
+.comment-list ul,
+.comment-list li {
+  list-style: none;
+}
+
+.comment-list p {
+  padding: 0 20px 0 20px;
+}
+
+#reply-title {
+  font-size: 26px;
+}
+
+.comments-area h2 {
+  font-size: 26px;
+}
+
+.comments-area {
+  margin-top: 30px;
+}
+
+.reply {
+  text-align: right;
+  padding-right: 20px;
+}
+
+.says {
+  display: none;
+}
+
+.vcard {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding: 20px 0 20px 20px;
+  border-left: 1px solid #e1e1e1;
+  border-top: 1px solid #e1e1e1;
+  border-right: 1px solid #e1e1e1;
+}
+
+.vcard img {
+  margin-right: 10px;
+}
+
+.comments-area h2 {
+  text-align: center;
+}
+
+.comment-form-comment textarea {
+  width: 100%;
+  border-color: #e1e1e1;
+}
+
+.form-submit input {
+  width: 100%;
+  background-color: #191919;
+  color: #fafafa;
+  padding: 25px;
+  border-style: none;
+}
+
+.comment-form-comment label {
+  display: none;
+}
+
+.comment-respond {
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .comment-meta {
+    float: right;
+    margin-top: -95px;
+    margin-right: 20px;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .comment-meta {
+    text-align: right;
+    margin: -45px 20px 20px 0;
+    font-size: 16px;
+  }
+}
+
+/* --------------- POST & PAGE ---------------- */
+
+/*-----                                   -----*/
+
+.page-heading {
+  text-align: center;
+  margin: 30px 0 30px 0;
+}
+
+.page-heading h1 {
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.single-end {
+  margin: 30px 0 30px 0;
+}
+
+.tags {
+  text-align: center;
+  padding-left: 10px;
+  margin-bottom: 30px;
+  border-left: 3px solid #969696;
+  border-right: 3px solid #969696;
+}
+
+.tags a {
+  color: #191919;
+  padding-left: 5px;
+}
+
+/* --------------- SINGLE ---------------- */
+
+/*------                            ------*/
+
+.post-content {
+  display: block;
+  margin: 0 auto 0 auto;
+  max-width: 640px;
+  overflow: hidden;
+}
+
+.post-thumbnail {
+  display: block;
+  margin: 30px auto 0 auto;
+  max-width: 640px;
+  height: 360px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.post-c-heading {
+  display: table;
+  margin: 245px auto 0 auto;
+  height: 120px;
+  min-width: 65%;
+  max-width: 70%;
+  text-align: center;
+  color: #323232;
+  background-color: #fafafa;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 576px) {
+  .post-c-heading h1 {
+    font-size: 26px;
+    padding: 45px 20px 0 20px;
+    font-weight: 300;
+    text-transform: capitalize;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .post-c-heading h1 {
+    font-size: 24px;
+    padding: 45px 20px 0 20px;
+    font-weight: 300;
+    text-transform: capitalize;
+  }
+  .post-c-heading {
+    display: table;
+    margin: 245px auto 0 auto;
+    height: 120px;
+    min-width: 65%;
+    max-width: 100%;
+    text-align: center;
+    color: #323232;
+    background-color: #fafafa;
+    overflow: hidden;
+  }
+}
+
+.postinfo {
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.related {
+  display: block;
+  margin: 0 auto 45px auto;
+  max-width: 640px;
+  text-align: center;
+}
+
+.rel {
+  display: inline-block;
+  padding-top: 15px;
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.morep {
+  display: block;
+  font-size: 18px;
+  margin: 30px auto 10px auto;
+}
+
+blockquote {
+  overflow: hidden;
+  padding: 15px;
+}
+
+blockquote p {
+  margin-left: 60px;
+  margin-top: 11px;
+}
+
+blockquote:before {
+  position: absolute;
+  content: '"';
+  font-size: 52px;
+}
+
+.related hr {
+  background: #c8c8c8;
+  max-width: 240px;
+  height: 0.01em;
+  margin: 15px auto 0 auto;
+}
+
+.post-content h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  font-weight: 300;
+}
+
+.post-content a {
+  font-style: italic;
+}
+
+/* --------------- FOOTER ---------------- */
+
+/*-----                              -----*/
+
+.hava-search {
+  display: block;
+  width: 240px;
+  margin: auto;
+  transition: 0.2s ease;
+  background-color: #191919;
+  border: none;
+  text-align: center;
+  line-height: 3em;
+  color: #fafafa;
+  font-size: 1.1rem;
+}
+
+.hava-search:focus {
+  font-size: 2rem;
+  outline: none;
+}
+
+.hava-search::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #fafafa;
+}
+
+.hava-search:-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #191919;
+}
+
+.hava-search::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #fafafa;
+}
+
+.hava-search:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #fafafa;
+}
+
+.hava-search:-moz-placeholder {
+  /* Firefox 18- */
+  color: #fafafa;
+}
+
+.undersearch {
+  background-color: #fafafa;
+  width: 240px;
+  margin-top: 1px;
+}
+
+.blog-ass {
+  margin-top: 50px;
+  padding: 30px;
+  background-color: #191919;
+  color: #fafafa;
+  text-align: center;
+  border-top: 1px solid #969696;
+}
+
+.footer-icons {
+  display: block;
+  padding: 0 0 10px 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+.abouttext {
+  display: block;
+  max-width: 640px;
+  margin: auto;
+  padding-bottom: 15px;
+}
+
+.copytext {
+  color: #969696;
+}
+
+.copytext a:hover {
+  color: #fff;
+}
+
+/* --------------- WIDGETS ---------------- */
+
+/*-----                               -----*/
+
+.widget-area {
+  margin: auto;
+  max-width: 1280px;
+  border-bottom: 1px solid #323232;
+  margin-bottom: 20px;
+}
+
+.widget {
+  margin-bottom: 30px;
+}
+
+.widget ul,
+.widget li {
+  list-style: none;
+  padding: 0px;
+}
+
+/* --------------- WORDPRESS CORE ---------------- */
+
+/*----------                            ----------*/
+
+.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+
+.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wp-caption {
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  max-width: 96%;
+  padding: 5px 3px 10px;
+  text-align: center;
+}
+
+.wp-caption.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+  margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+  margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+  border: 0 none;
+  height: auto;
+  margin: 0;
+  max-width: 98.5%;
+  padding: 0;
+  width: auto;
+}
+
+.wp-caption .wp-caption-text,
+.gallery-caption {
+  font-size: 11px;
+  line-height: 17px;
+  margin: 0;
+  padding: 0 4px 5px;
+}
+
+.sticky {
+}
+
+.bypostauthor {
+}
+
+/* Text meant only for screen readers. */
+
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+  background-color: #eee;
+  clip: auto !important;
+  clip-path: none;
+  color: #444;
+  display: block;
+  font-size: 1em;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}

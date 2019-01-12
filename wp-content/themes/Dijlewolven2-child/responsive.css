@@ -1,0 +1,313 @@
+
+
+/* Common general styles go here */
+/* Smartphones (portrait ) ----------- */
+@media only screen 
+and (max-width : 568px)
+and (min-width: 320px)
+and (orientation:portrait)
+{
+/* Styles */
+
+.FrontTekst{
+	padding: 0px 20px 0px 20px;
+}
+.FrontTekst p{
+	font-size:14px;
+}
+
+.site-branding{
+	background-image: url("poedertoren.png");
+    background-repeat: no-repeat;
+    background-size: 60% 40%;
+    background-position: 50% 30%;
+}
+
+/*Buiten Leren*/
+
+.BuitenLerenHoofdingRechts{
+		font-size: 14px;
+		padding-left: 30px;
+		color: black;
+	}
+
+	.BuitenLerenFotoCentraal{
+		overflow:hidden;
+		padding-top: 10px;
+	}
+
+	.BuitenLerenFotoLinks{
+		width : 100%;
+
+	}
+	.BuitenLerenFotoRechts{
+		width: 100%;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+/*Speurhoekjes*/
+
+.HoekjesHoofdingLinks{
+	width: 20%;
+	float:left;
+	padding-left: 15px;
+}
+
+.HoekjesHoofdingMidden{
+	width: 40%;
+	float:left;
+	font-size: 18px;
+	margin-top: 2%;
+	padding-left: 10px;
+	color:black;
+}
+
+.HoekjesHoofdingRechts img{
+	width:50px;
+}
+
+.HoekjesFotoLinks{
+	float:left;
+	width : 80%;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+.HoekjesFotoLinks img{
+	width:95%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.HoekjesFotoRechts{
+	clear: left;
+	width: 100%;
+}
+
+
+.HoekjesFotoRechts p{
+	font-size: 16px;
+	color: black;
+}
+
+.DijlewolvenliedTekst p{
+	text-align:left;
+	padding-left: 10%;
+	padding-bottom: 20px;
+	font-size: 16px;
+}
+
+.DijlewolvenliedTekst p:first-child { 
+	text-align:center;
+	color: black;
+	padding-left: 0px;
+	padding-top: 20px;
+
+}
+
+.HoekjesMeerWetenTitel{
+	font-weight: bold;
+	color: black;
+	padding-left: 15px;
+	padding-top: 20px;
+
+}
+.HoekjesMeerWetenTekst{
+	padding: 0px 0px 20px 30px;
+	font-size: 14px;
+	color:black;
+
+}
+
+/* Stadswandelingen */
+
+.wandelingenMidden{
+	margin-top: 25px;
+}
+
+.column1of2{
+	width: 100%;
+	float: left;
+	/*border-right: 3px solid green;*/
+	padding-right: 5px;
+}
+
+
+.column2of2{
+	width: 100%;
+	clear:left;
+	padding-left: 5px;
+}
+
+.downloadLinkWandelingPdf{
+	display:block;
+	background-color: blue;
+	border-radius: 50%;
+	color: white;
+	margin-top: 30px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 180px;
+}
+.downloadLinkWandelingPdf a{
+	color:white;
+	font-weight: 600;
+	font-size: 14px;
+	display:block;
+	padding-top: 25%;
+	padding-left: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+
+}
+
+
+}
+
+/* Smartphones (landscape ) ----------- */
+
+@media only screen 
+and (max-width : 568px)
+and (min-width: 320px)
+and (orientation:landscape)
+{
+/* Styles */
+
+.FrontTekst{
+	padding: 0px 20px 0px 20px;
+}
+
+.site-branding{
+	background-image: url("poedertoren.png");
+    background-repeat: no-repeat;
+    background-size: 60% 40%;
+    background-position: 50% 30%;
+}
+
+
+/*Speurhoekjes*/
+
+.HoekjesHoofdingLinks{
+	width: 20%;
+	float:left;
+	padding-left: 15px;
+}
+
+.HoekjesHoofdingMidden{
+	width: 40%;
+	float:left;
+	font-size: 18px;
+	margin-top: 2%;
+	padding-left: 10px;
+	color:black;
+}
+
+.HoekjesHoofdingRechts img{
+	width:50px;
+}
+
+.HoekjesFotoLinks{
+	float:left;
+	width : 80%;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+.HoekjesFotoLinks img{
+	width:95%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.HoekjesFotoRechts{
+	clear: left;
+	width: 100%;
+	font-size: 10px;
+	color:red;
+}
+
+
+}
+
+
+/*  ipad landscape----------- */
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape){
+
+
+
+}
+
+/*  ipad portait----------- */
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) {
+
+.menu-item a{
+
+    font-size: 15px;
+	font-weight: bold;
+}
+.FrontTekst{
+	padding: 0px 40px 0px 40px;
+}
+
+}
+
+
+
+
+
+
+/*  ----------- */
+@media only screen
+and (max-width : 768px) 
+{
+	
+
+}
+
+
+
+
+/*
+   
+    larger than 768 px (small devices, tablets)
+    larger than 992 px (medium devices)
+    larger than 1200px (large devices)*/
+
+
+
+/*   --------------------------------------  */
+/* Mobiles in landscape mode */
+@media only screen
+and (min-width : 321px)
+and (max-width : 480px) {
+.LuisterhoekHoofdingR{
+		font-size:14px;
+	}
+}
+ 
+
+/* Tablets */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px) {
+.LuisterhoekHoofdingR{
+		font-size:16px;
+	}
+}
+ 
+/* very large screen devices */
+

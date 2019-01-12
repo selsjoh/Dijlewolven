@@ -1,0 +1,929 @@
+/*
+ Theme Name:   Dijlewolven Child 2
+ Theme URI:    http://dev-dijlewolven.pantheonsite.io/
+ Description:  Dijlewolven Child Theme 2
+ Author:       Jo Sels
+ Author URI:   http://example.com
+ Template:     blaskan
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html 
+ Text Domain:  dijlewolven-child-2
+*/
+
+/* 1. Algemene aanpassingen*/
+/* 1.1 De titel-pagina + 'edit' overal verbergen*/
+.entry-title{
+	display: none;
+}
+
+.entry-footer{
+	display: none;
+}
+
+/* 1.2 Header foto en footers + 'edit' verbergen op alle pagina's behalve home */
+
+
+.custom-header ,
+.footer-widgets
+ {
+	display: none;
+}
+
+
+.home .custom-header,
+.home .footer-widgets
+ {
+ 	display:block;
+ }
+
+/* 1.3 Header op alle pagina's spatie met onderliggende content verkleinen */
+header#masthead {
+    margin-bottom: 10px;
+}
+
+/* 1.4 Menu op alle pagina's aanpassen */
+
+
+.menu-item a{
+	/*display: inline-block;
+	border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 8px;
+    height: 5px;
+    background-color:#d2f596;
+    margin-top:2px;
+    margin-bottom: 2px;*/
+    font-size: 20px;
+	font-weight: bold;
+}
+
+
+/* 1.5 Foto's en video's responsive maken */
+
+/* 1.6 Achtergrondafbeelding in de hoofding */
+
+
+.site-branding{
+	background-image: url("poedertoren.png");
+    background-repeat: no-repeat;
+    background-size: 15% 60%;
+    background-position: 50% 30%;
+    padding-bottom: 1px;
+}
+
+/*2. Specifieke aanpassingen voor de Home pagina */
+/*2.1. Tekst in de paragrafen aanpassen */
+
+.FrontTekst{
+	text-align:left;
+	padding: 0px 120px 0px 120px;
+}
+
+
+
+/*3. Specifieke aanpassingen voor de pagina BuitenLeren */
+/*3.1.1 De hoofding kleine image links  tekst rechts aanpassen*/
+
+
+.BuitenLerenContainer{
+	border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 8px;
+    background-color: #f4e2dc;	
+    padding-bottom: 15px;
+}
+
+
+.BuitenLerenHoofdingCentraal{
+	overflow:hidden;
+}
+
+.BuitenLerenHoofdingLinks{
+	width: 40%;
+	float:left;
+	padding-left: 25px;
+}
+
+.BuitenLerenHoofdingLinks img{
+	border-style: solid;
+    border-width: 5px;
+    border-color: green;
+    border-radius: 8px;
+}
+
+.BuitenLerenHoofdingRechts{
+	width: 40%;
+	float:left;
+	font-size: 36px;
+	margin-top: 2%;
+}
+
+
+
+/*3.1.2 De tekst van de hoofding in.BuitenLerenjes responsive maken/
+// Dit is verhuisd naar responsive.css
+
+/*3.2 Twee foto's naast elkaar */
+.BuitenLerenFotoCentraal{
+	overflow:hidden;
+	padding-top: 10px;
+
+}
+
+.BuitenLerenFotoCentraal img{
+	width:100%;
+}
+
+.BuitenLerenFotoLinks{
+	float:left;
+	width : 50%;
+
+}
+.BuitenLerenFotoRechts{
+	float:left;
+	width: 50%;
+}
+
+
+.BuitenLerenFotoLinks img{
+	width:95%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.BuitenLerenFotoRechts img{
+	width:95%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*3.3 Collapse */
+
+.mijnCollapsBalk{
+	background-color: green;
+	color:white;
+	width:60%;
+	
+	text-align: center;
+	margin-bottom: 5px;
+	font-size: 16px;
+	border-style: solid;
+    border-width: 1px;
+    border-color: green;
+    border-radius: 8px;	
+     margin-left: auto; 
+     margin-right: auto;	
+}
+
+
+.mijnCollapsInhoud{
+	background-color:#d5d8dd;
+	width:85%;
+	 margin-left: auto; 
+     margin-right: auto;	
+}
+
+.popupContent{
+	font-size: 16px;
+	padding-left: 20px;
+}
+
+/*4. Specifieke aanpassingen voor de pagina.Hoekjes */
+/*4.1.1 De hoofding kleine image links  tekst rechts aanpassen*/
+
+.speurhoekjesKaart{
+	max-width: 40%;
+	margin-right: auto;
+	margin-left:auto;
+	border: 2px solid  green;
+}
+
+.speurhoekjesKaartTekst{
+	text-align:center;
+	color:black;
+}
+.speurhoekjesTeaser{
+	font-size: 24px; 
+	text-align: center;
+	font-weight: bold;
+	color:black;
+	margin-top:20px;
+}
+
+.HoekjesContainer{
+	border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 8px;
+    background-color: #f4e2dc;	
+    padding-bottom: 15px;
+}
+
+
+.HoekjesHoofdingCentraal{
+	overflow:hidden;
+}
+
+.HoekjesHoofdingLinks{
+	width: 40%;
+	float:left;
+	padding-left: 25px;
+}
+
+.HoekjesHoofdingLinks img{
+	border-style: solid;
+    border-width: 5px;
+    border-color: green;
+    border-radius: 8px;
+}
+
+.HoekjesHoofdingMidden{
+	width: 40%;
+	float:left;
+	font-size: 36px;
+	margin-top: 2%;
+}
+
+.HoekjesHoofdingRechts img{
+	width:110px;
+}
+
+/*4.1.2 De tekst van de hoofding in.Hoekjesjes responsive maken/
+// Dit is verhuisd naar responsive.css
+
+/*4.2 Twee foto's naast elkaar */
+.HoekjesFotoCentraal{
+	overflow:hidden;
+	padding-top: 10px;
+}
+
+.HoekjesFotoCentraal img{
+	width:100%;
+	margin-bottom: 10px;
+}
+
+.HoekjesFotoLinks{
+	float:left;
+	width : 50%;
+
+}
+.HoekjesFotoRechts{
+	float:left;
+	width: 50%;
+	padding-left: 25px;
+	padding-top: 30px;
+}
+
+
+.HoekjesFotoLinks img{
+	width:95%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.HoekjesFotoRechts img{
+	width:95%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*4.3 Verborgen teksten hoekjes: Dijlewolvenlied en lees meer  */
+
+
+.DijlewolvenliedTekst p{
+	text-align:left;
+	padding-left: 40%;
+	padding-bottom: 20px;
+
+}
+
+.DijlewolvenliedTekst p:first-child { 
+	text-align:center;
+	color: black;
+	padding-left: 0px;
+	padding-top: 20px;
+
+}
+
+.HoekjesMeerWeten{
+
+}
+
+.HoekjesMeerWetenTitel{
+	font-weight: bold;
+	color: black;
+	padding-left: 15px;
+	padding-top: 20px;
+
+}
+.HoekjesMeerWetenTekst{
+	padding: 0px 0px 20px 30px;
+
+}
+
+/*4.4 Knop ' Tip'  */
+
+.mijnTipBalk{
+	background-color: green;
+	color:white;
+	width:40%;
+	text-align: center;
+	margin-bottom: 5px;
+	font-size: 30px;
+	border-style: solid;
+    border-width: 1px;
+    border-color: green;
+    border-radius: 8px;	
+     margin-left: auto; 
+     margin-right: auto;	
+}
+
+.mijnTipBalk a{
+ color: red;
+ font-weight: bold;
+
+}
+
+
+/*5. Specifieke aanpassingen voor de pagina Stadswandelingen */
+
+/*5.1 Algemeen */
+
+.stadswandelingenHoofding{
+
+}
+
+.stadswandelingenTitel{
+	color: #b30000;
+	font-family: 'ABeeZee';
+	font-size: 38px;
+	font-style: normal;
+	font-weight: 600;
+	letter-spacing: -1px;
+	line-height: 1.1;
+	border-top-color: #b30000;
+	text-align:center;
+	padding-bottom: 20px;
+
+}
+
+.vhmTitel{
+	color: #b30000;
+	font-family: 'ABeeZee';
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: -1px;
+	line-height: 1.1;
+	border-top-color: #000000;
+	text-align:center;
+	padding-bottom: 20px;
+}
+
+.vhmTekst , .stadswandelingenTekst{
+	color: #232323;
+	font-family: 'ABeeZee';
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 0px;
+	line-height: 1.2;
+	border-top-color: #000000;
+	padding-bottom: 10px;
+}
+
+
+.vhmTekst{
+	text-indent: 1.5em;
+}
+
+.stadswandelingenLogoLeuven{
+	text-align:center;
+}
+
+hr.gewoonHR {
+	height: 3px;
+	background-color: green;
+	width: 100%;
+	border-width: 0px;
+	margin-top: 5px;
+	margin-bottom:5px;
+}
+
+.wandelingenMidden{
+	margin-top: 25px;
+}
+
+.wandelingenMiddenTitel p {
+	color: green;
+	text-align: center;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+
+.wandelingenMiddenBasisTekst{
+	color: #232323;
+	font-family: 'ABeeZee';
+	font-size: 18px;
+}
+
+.toegankelijkheid p , .stadsparken p {
+	color: #232323;
+	font-family: 'ABeeZee';
+	font-size: 18px;
+	padding-left: 15px;
+}
+
+
+.toegankelijkheid h4, .stadsparken h4 {
+	color: #232323;
+	font-family: 'ABeeZee';
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 8px;
+}
+
+.wandelingDetail{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*5.2 De kolommen */
+
+.column1of2{
+	width: 50%;
+	float: left;
+	border-right: 3px solid green;
+	padding-right: 20px;
+}
+
+
+.column2of2{
+	width: 50%;
+	float: left;
+	padding-left: 27px;
+}
+
+/*5.3 Ronde foto's */
+
+.wandelingenMiddenFoto img {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-bottom: 5px;
+
+    -moz-box-shadow: 10px 10px 5px #888;
+	-webkit-box-shadow: 10px 10px 5px #888;
+	box-shadow: 10px 10px 5px #888;
+}
+
+.specifiekeLinkWandeling{
+font-size: 14px;
+border: 5px solid green;
+border-radius: 15%;
+background-color:green;
+text-align:center;
+max-width: 40%;
+margin-right: auto;
+margin-left:auto;
+}
+
+.specifiekeLinkWandeling a{
+	color:white;
+	font-size: 20px;
+}
+
+.downloadLinkWandelingPdf{
+	display:block;
+	background-color: blue;
+	border-radius: 50%;
+	color: white;
+	margin-top: 30px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 150px;
+}
+
+.downloadLinkWandelingPdf a{
+	color:white;
+	font-weight: 600;
+	font-size: 24px;
+	display:block;
+	padding-top: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+
+}
+
+/*6. Specifieke aanpassingen voor de pagina's met de details van Wandeling 1 en Wandeling 2  */
+
+/*6.1 Bovenste deel Wandeling 1 en Wandeling 2  */
+
+.page-id-1456 .wandeling1ondersteblok .site-content {
+	background-color: red;
+	display: block;
+}
+
+.wandeling1Titel{
+	
+}
+
+.planWandeling1{
+	width: 70%;
+	float: left;
+	padding-bottom: 20px;
+	overflow:hidden;
+}
+
+.planWandelingFoto{
+	
+	overflow: hidden;
+}
+
+.planWandelingFoto img{
+	width: 100%
+	padding: 0;
+	border: 2px solid  green;
+}
+
+.planWandelingSpecifiek_image_markers{
+	float: left;
+	width: 100%
+	padding: 0;
+
+}
+
+.legendeWandeling1{
+	width: 30%;
+	float: left;
+	overflow: hidden;
+}
+
+
+.downloadGPX{
+	overflow: hidden;
+	font-size: 24px;
+	display: block;	
+	float:left;
+	padding-left: 30%;
+
+}
+
+.legendeRij{
+	overflow: hidden;	
+}
+
+
+
+.legendeBolletjeWrap{
+	width: 30%;
+	float: left;
+	/*background-color: green;*/
+	display: block;
+	height: 40px;
+	overflow: hidden;
+	
+}
+
+.legendeBolletje{
+	text-align: center;
+	border-radius: 50%;
+	max-width: 40%;
+	height: 80%;
+	background-color: red;
+	display: block;
+	margin:auto;
+	color: black;
+	
+}
+
+
+.legendeTekst{
+	width: 70%;
+	float: left;
+	font-size:18px;
+	color:#656861;
+}
+
+
+/*6.2 Middenste deel Wandeling 1 en Wandeling 2  */
+
+
+
+.wandeling1Rij{
+	float: left;
+	border-bottom: 1px solid  green;
+	margin-top: 20px;
+
+}
+
+
+.wandeling1Column1of3{
+	width: 25%;
+	float: left;
+
+
+}
+
+.wandeling1Column2of3{
+	width: 50%;
+	float: left;
+}
+
+.wandeling1Column3of3{
+	width: 25%;
+	float: left;
+}
+
+.column2row1{
+
+}
+
+.column2row2{
+	
+}
+.column2row3{
+	
+}
+
+.specialeOpmaak h2{
+	font-size:30px;
+	font-weight: 600;
+	margin:auto;
+	
+}
+
+.specialeOpmaak h3{
+	font-size:20px;
+	font-weight: 600;
+	margin-top : 5px;
+	padding-left: 25px;
+}
+
+.specialeOpmaak h4{
+	font-size:20px;
+	font-weight: 600;
+	margin-top : 20px;
+}
+
+.specialeOpmaak p{
+	font-size:16px;
+	padding-left: 18px;
+	padding-right: 18px;
+}
+
+ul.wegbeschrijving{
+	letter-spacing: 0.01em;
+	line-height: 1.1em;
+	color:black;
+	font-size: 16px;
+}
+
+.terugNaarPlan{
+ 	text-align:center;
+ 	border-top: 2px solid  grey;
+	border-bottom: 2px solid  grey;
+}
+
+.terugNaarPlan a{
+ 	color:grey;
+ }
+
+
+
+
+/*7. Speciale lijst */
+
+
+.myRedCircelImage{
+	width: 20px;
+	height:auto;
+
+}
+
+.legendeWandeling1Test{
+	width: 30%;
+	float: left;
+	overflow: hidden;
+	padding-left: 20px;
+	display: inline-block;
+	counter-reset: bolletje;
+}
+
+
+
+.legendeWandeling1Test a{
+	counter-increment: bolletje;
+	padding-left: 5px;
+	position: relative
+	margin: 0 0 0.5rem 0;
+	display: block;
+	color: black;
+	padding-top: -5px;
+}
+
+
+.legendeWandeling1Test a:before {
+  content: "  " counter(bolletje)"  ";
+  background-color:red;
+  border-radius: 50%;
+  text-align:center;
+  overflow: hidden;
+  width: 3rem;
+  height: 3rem;
+  display: inline-block;
+  line-height: 2rem;
+  color: white;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+  
+}
+
+.lijstItem{
+	line-height: 2rem;
+	font-size: 16px;
+}
+
+.dummyPunten{
+	clear: both;
+}
+
+.linkNaarAntwoordZoekspel{
+	background-color: green;
+	color:white;
+	width:40%;
+	text-align: center;
+	margin-bottom: 5px;
+	font-size: 30px;
+	border-style: solid;
+    border-width: 1px;
+    border-color: green;
+    border-radius: 8px;	
+     margin-left: auto; 
+     margin-right: auto;
+}
+
+.linkNaarAntwoordZoekspel a{
+	color: red;
+ font-weight: bold;
+}
+
+/*8. Pagina met de foto - tips */
+
+.fotoTipsContainer{
+	margin-left:auto;
+	margin-right:auto;
+	overflow: hidden;
+	display: block;
+	max-width: 60%;
+	max-height: 80%;
+background-color:#00802b;
+border: 4px solid  black;
+}
+
+
+
+/*9. Oplossing zoekspel */
+
+.oplossingZoekspelTitel{
+	font-size: 48px;
+}
+
+
+.oplossingZoekspelTekst{
+
+}
+
+.oplossingZoekspelAntwoord ul{
+	display: block;
+	padding-left: 45px;
+}
+
+.oplossingZoekspelAntwoord li{
+	font-size: 14px;
+	color: black;
+
+}
+/*10. Geschiedenis*/
+
+/*10.1 Geschiedenis algemeen*/
+/*10.2 Geschiedenis Dijlepark*/
+
+.geschiedenisDijleparkContainer{
+	/*display: block;
+	height: 300px;
+	width: 100%;*/
+	background-image: url("http://dev-dijlewolven.pantheonsite.io/wp-content/uploads/2018/12/leuven_dijlepark_1__normal.jpg");
+	height: 250px; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left:-410px;
+	margin-right:-410px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.geschiedenisDijleparkImage{
+	/*background-image: url("http://dev-dijlewolven.pantheonsite.io/wp-content/uploads/2018/12/leuven_dijlepark_1__normal.jpg"); 
+	background-position: center center; 
+	background-size: cover; 
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
+	display:block;
+	width: 100%;
+	height: 300px;*/
+
+	width:50%;
+	margin:0 auto;
+	color:#FFF;
+	padding-top:50px; 
+}
+
+
+/*10.3 Geschiedenis Van Dalepark*/
+/*10.4 Geschiedenis Rambergpark*/
+
+
+
+
+/*11. algemeen*/
+.paginaFotoAchtergrond{ 
+	background-image: url("https://www.zensangha.be/wp-content/uploads/2018/11/Trees_background.png"); 
+	background-position: center center; 
+	background-size: cover; 
+	background-repeat: no-repeat; 
+	background-attachment: fixed; 
+}
+
+.home1{ 
+	background-image: url("http://dev-dijlewolven.pantheonsite.io/wp-content/uploads/2018/11/background-backlight-blur-262713.jpg"); 
+	background-position: center center; 
+	background-size: cover; 
+	background-repeat: no-repeat; 
+	background-attachment: fixed; 
+}
+
+.home2{ 
+	background-image: url("http://dev-dijlewolven.pantheonsite.io/wp-content/uploads/2018/11/flora-flowes-green-122429.jpg"); 
+	background-position: center center; 
+	background-size: cover; 
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
+	
+}
+
+
+.RedDot{
+	
+	display: block;
+	height:20px;
+	width: 20px;
+}
+
+
+.legendeMetImages{
+	width: 30%;
+	float: left;
+	overflow: hidden;
+	padding-left: 30px;
+	display: inline-block;
+}
+
+.legendeMetImages img{
+	height:40px;
+	width: 40px;
+}
+
+
+/*11.2 algemeen  -  parallax */
+
+.parallax {  
+background-image: url("http://example.com/wp-content/uploads/2017/08/my-background-image.jpg");
+height: 100%; 
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin-left:-410px;
+margin-right:-410px;
+}
+ 
+.parallax-content { 
+width:50%;
+margin:0 auto;
+color:#FFF;
+padding-top:50px; 
+} 
